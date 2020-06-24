@@ -8,11 +8,13 @@ This is a simple colorscheme that I've designed for myself and will implement fo
 
 I am going to implement this theme for the following:
 
-	* st
-	* dwm
-	* tmux
+	* st - colors.h
+	* dwm - colors.h
+	* dmenu - colors.h
+	* tmux - colors.tmux
 	* vim
-	* $PS1
+	* $PS1 - colors.sh
+	* tty - colors.sh
 
 Once these are finished I might create simple implementations for the following:
 
