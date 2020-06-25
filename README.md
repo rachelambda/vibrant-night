@@ -12,7 +12,7 @@ I am going to implement this theme for the following:
 	* dwm - colors.h
 	* dmenu - colors.h
 	* tmux - colors.tmux
-	* vim
+	* vim - colors.vim
 	* $PS1 - colors.sh
 	* tty - colors.sh
 
