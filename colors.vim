@@ -6,7 +6,7 @@
 
 hi clear
 if exists("syntax_on")
-syntax reset
+	syntax reset
 endif
 
 let g:colors_name = "vibrant-night"
@@ -29,68 +29,17 @@ let s:bpurple = "13"
 let s:bcyan   = "14"
 let s:bwhite  = "15"
 
-if !exists("g:nord_bold")
-  let g:nord_bold = 1
-endif
-
-let s:bold = "bold,"
-if g:nord_bold == 0
-  let s:bold = ""
-endif
-
-if !exists("g:nord_italic")
-  if has("gui_running") || $TERM_ITALICS == "true"
-    let g:nord_italic = 1
-  else
-    let g:nord_italic = 0
-  endif
-endif
-
 let s:italic = "italic,"
-if g:nord_italic == 0
-  let s:italic = ""
-endif
 
 let s:underline = "underline,"
-if ! get(g:, "nord_underline", 1)
-  let s:underline = "NONE,"
-endif
 
 let s:italicize_comments = ""
-if exists("g:nord_italic_comments")
-  if g:nord_italic_comments == 1
-    let s:italicize_comments = s:italic
-  endif
-endif
-
-if !exists('g:nord_uniform_status_lines')
-  let g:nord_uniform_status_lines = 0
-endif
 
 function! s:logWarning(msg)
   echohl WarningMsg
   echomsg 'nord: warning: ' . a:msg
   echohl None
 endfunction
-
-if exists("g:nord_comment_brightness")
-  call s:logWarning('Variable g:nord_comment_brightness has been deprecated and will be removed in version 1.0.0!' .
-                   \' The comment color brightness has been increased by 10% by default.' .
-                   \' Please see https://github.com/arcticicestudio/nord-vim/issues/145 for more details.')
-  let g:nord_comment_brightness = 10
-endif
-
-if !exists("g:nord_uniform_diff_background")
-  let g:nord_uniform_diff_background = 0
-endif
-
-if !exists("g:nord_cursor_line_number_background")
-  let g:nord_cursor_line_number_background = 0
-endif
-
-if !exists("g:nord_bold_vertical_split_line")
-  let g:nord_bold_vertical_split_line = 0
-endif
 
 function! s:hi(group, ctermfg, ctermbg, attr)
   if a:ctermfg != ""
@@ -137,11 +86,7 @@ call s:hi("VisualNOS", "NONE", s:bblack, "")
 
 "+--- Gutter ---+
 call s:hi("CursorColumn", "NONE", s:dblack, "")
-if g:nord_cursor_line_number_background == 0
-  call s:hi("CursorLineNr", "NONE", "", "NONE")
-else
-  call s:hi("CursorLineNr", "NONE", s:dblack, "NONE")
-endif
+call s:hi("CursorLineNr", "NONE", "", "NONE")
 call s:hi("Folded", s:bblack, s:dblack, s:bold)
 call s:hi("FoldColumn", s:bblack, "NONE", "")
 call s:hi("SignColumn", s:dblack, "NONE", "")
@@ -174,11 +119,7 @@ call s:hi("TabLineSel", s:dcyan, s:bblack, "NONE")
 "+--- Window ---+
 call s:hi("Title", "NONE", "", "NONE")
 
-if g:nord_bold_vertical_split_line == 0
-  call s:hi("VertSplit", s:bblack, "NONE", "NONE")
-else
-  call s:hi("VertSplit", s:bblack, s:dblack, "NONE")
-endif
+call s:hi("VertSplit", s:bpurple, "NONE", "NONE")
 
 "+----------------------+
 "+ Language Base Groups +
@@ -291,17 +232,10 @@ hi! link dtDelim Delimiter
 hi! link dtLocaleValue Keyword
 hi! link dtTypeValue Keyword
 
-if g:nord_uniform_diff_background == 0
-  call s:hi("DiffAdd", s:dgreen, "NONE", "inverse")
-  call s:hi("DiffChange", s:dyellow, "NONE", "inverse")
-  call s:hi("DiffDelete", s:dred, "NONE", "inverse")
-  call s:hi("DiffText", s:dpurple, "NONE", "inverse")
-else
-  call s:hi("DiffAdd", s:dgreen, s:dblack, "")
-  call s:hi("DiffChange", s:dyellow, s:dblack, "")
-  call s:hi("DiffDelete", s:dred, s:dblack, "")
-  call s:hi("DiffText", s:dpurple, s:dblack, "")
-endif
+call s:hi("DiffAdd", s:dgreen, s:dblack, "")
+call s:hi("DiffChange", s:dyellow, s:dblack, "")
+call s:hi("DiffDelete", s:dred, s:dblack, "")
+call s:hi("DiffText", s:dpurple, s:dblack, "")
 " Legacy groups for official git.vim and diff.vim syntax
 hi! link diffAdded DiffAdd
 hi! link diffChanged DiffChange
