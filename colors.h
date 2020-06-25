@@ -11,7 +11,7 @@ static const char *colorname[] = {
 	"#E9E9E9", /* white   */
 
 	/* 8 bright colors */
-	"#3B3B3B", /* black   */
+	"#5C5C5C", /* black   */
 	"#FF9CAA", /* red     */
 	"#A4EDAC", /* green   */
 	"#F7E2A1", /* yellow  */
@@ -26,7 +26,7 @@ static const char *colorname[] = {
 
 /* dwm colors */
 static const char col_gray1[]          = "#2E2E2E";
-static const char col_gray2[]          = "#3B3B3B";
+static const char col_gray2[]          = "#5C5C5C";
 static const char col_pink1[]          = "#E88BE0";
 static const char col_pink2[]          = "#EDBBE9";
 static const char col_white[]         = "#E9E9E9";
@@ -39,7 +39,7 @@ static const char *colors[][3]      = {
 
 /* dmenu */
 static const char col_gray1[]          = "#2E2E2E";
-static const char col_gray2[]          = "#3B3B3B";
+static const char col_gray2[]          = "#5C5C5C";
 static const char col_pink1[]          = "#E88BE0";
 static const char col_pink2[]          = "#EDBBE9";
 static const char col_white[]         = "#E9E9E9";

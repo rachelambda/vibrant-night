@@ -15,7 +15,7 @@ if [ "$TERM" = "linux" ]; then
     echo -en "\e]P5E88BE0"
     echo -en "\e]P61DDBC9"
     echo -en "\e]P7E9E9E9"
-    echo -en "\e]P83B3B3B"
+    echo -en "\e]P85C5C5C"
     echo -en "\e]P9FF9CAA"
     echo -en "\e]PAA4EDAC"
     echo -en "\e]PBF7E2A1"

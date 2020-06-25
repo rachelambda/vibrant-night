@@ -30,7 +30,7 @@ Normal colors:
 
 Bright colors
 
-	* #3B3B3B	black
+	* #5C5C5C	black
 	* #FF9CAA	red
 	* #A4EDAC	green
 	* #F7E2A1	yellow
@@ -38,8 +38,3 @@ Bright colors
 	* #EDBBE9	magenta
 	* #81F5E1	cyan
 	* #F5F5F5	white
-
-I've given up on this (for now)
--------------------------------
-
-It was a neat idea but I couldn't make it work look any decent in vim.
