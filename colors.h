@@ -25,27 +25,23 @@ static const char *colorname[] = {
 };
 
 /* dwm colors */
-static const char col_gray1[]          = "#2E2E2E";
-static const char col_gray2[]          = "#5C5C5C";
-static const char col_pink1[]          = "#E88BE0";
-static const char col_pink2[]          = "#EDBBE9";
-static const char col_white[]         = "#E9E9E9";
-static const char *colors[][3]      = {
+static const char col_gray1[]  = "#2E2E2E";
+static const char col_gray2[]  = "#5C5C5C";
+static const char col_white[]  = "#E9E9E9";
+static const char *colors[][3] = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_pink2, col_gray1, col_gray1 },
-	[SchemeSel]  = { col_pink1, col_gray2, col_gray2 },
-	[SchemeHid]  = { col_pink1, col_white, col_white },
+	[SchemeNorm] = { col_white, col_gray1, col_gray1 },
+	[SchemeSel]  = { col_white, col_gray2, col_gray2 },
+	[SchemeHid]  = { col_gray2, col_white, col_white },
 };
 
 /* dmenu */
-static const char col_gray1[]          = "#2E2E2E";
-static const char col_gray2[]          = "#5C5C5C";
-static const char col_pink1[]          = "#E88BE0";
-static const char col_pink2[]          = "#EDBBE9";
-static const char col_white[]         = "#E9E9E9";
+static const char col_gray1[]  = "#2E2E2E";
+static const char col_gray2[]  = "#5C5C5C";
+static const char col_white[]  = "#E9E9E9";
 static const char *colors[SchemeLast][2] = {
 	             /*     fg         bg       */
-	[SchemeNorm] = { col_pink2, col_gray1 },
-	[SchemeSel]  = { col_pink1, col_gray2 },
+	[SchemeNorm] = { col_white, col_gray1 },
+	[SchemeSel]  = { col_white, col_gray2 },
 	[SchemeOut]  = { col_gray2, col_white },
 };

@@ -31,6 +31,8 @@ let s:bwhite  = "15"
 
 let s:italic = "italic,"
 
+let s:bold = "bold,"
+
 let s:underline = "underline,"
 
 let s:italicize_comments = ""
