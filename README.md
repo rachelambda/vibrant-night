@@ -2,7 +2,9 @@
 <h1 align="center">Vibrant Night</h1>
 <p align="center">A cozy colorscheme for all my things!</p>
 
-<img src="https://github.com/depsterr/vibrant-night/blob/master/misc/scrot.png?raw=true" height="100%" align="right">
+<img src="https://github.com/depsterr/vibrant-night/blob/master/misc/scrot.png?raw=true" width="40%" align="right">
+
+This is a little colorscheme that I've decided to make for fun. It's not made for any other purpose or with any other reasoning than that I like the colours and how they look.
 
 You can find the colorscheme for all the things in these files:
 
