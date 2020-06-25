@@ -2,9 +2,7 @@
 <h1 align="center">Vibrant Night</h1>
 <p align="center">A cozy colorscheme for all my things!</p>
 
-This is a simple colorscheme that I've designed for myself and will implement for the things I use. Screenshots might change with time as I improve themes.
-
-I am going to implement this theme for the following:
+You can find the colorscheme for all the things in these files:
 
 	* st - colors.h
 	* dwm - colors.h
@@ -41,7 +39,7 @@ Bright colors
 	* #81F5E1	cyan
 	* #F5F5F5	white
 
-I've given up on this
----------------------
+I've given up on this (for now)
+-------------------------------
 
-It was a neat idea but I couldn't make it work in vim so I've stopped working on it for now
+It was a neat idea but I couldn't make it work look any decent in vim.
