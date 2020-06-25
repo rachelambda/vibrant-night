@@ -15,6 +15,8 @@ You can find the colorscheme for all the things in these files:
 	* vim - colors.vim
 	* $PS1 - colors.sh
 	* tty - colors.sh
+	* chrome - chrome directory
+	* discord - discord.css
 
 Colors
 ------

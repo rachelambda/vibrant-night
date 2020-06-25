@@ -1,0 +1,73 @@
+/* glasscord support :) */
+
+:root{
+	/* Here you can define properties for use with Glasscord. */
+
+	/* Windows-specific properties */
+	/* Blur mode. Available types: acrylic (strong blur), blurbehind (light blur), transparent */
+	--glasscord-win-blur: blurbehind;
+
+	/* macOS-specific properties */
+	/* Vibrancy mode */
+	--glasscord-macos-vibrancy: fullscreen-ui;
+
+	/* Linux-specific properties */
+	/* Should Glasscord send a request to your window compositor to blur behind Discord's window? */
+	/* It currently supports KWin only */
+	--glasscord-linux-blur: true;
+
+	/* Discord-specific properties */
+	/* Custom (forced) titlebar */
+	/* native (default), windows, osx, linux (framed) */
+	--glasscord-titlebar: native;
+}
+
+.theme-dark{
+	--background-primary: transparent;
+	--background-primary-alt: #5C5C5Cf0;
+	--background-secondary: #2f313650;
+	--background-secondary-chat: #2f3136a0;
+	--background-secondary-alt: #292b2f00;
+
+	--background-tertiary: #2e2e2e70;
+
+	--background-logo: #36393fa0;
+	--deprecated-card-bg: #36393f4c;
+	--deprecated-store-bg: #36393f00;
+	--background-attachments: #2f313640;
+
+	--background-search-bar: #2e2e2ea0;
+
+	--background-switcher: #2f3136ff;
+	--background-chatbox: #2e2e2e50;
+	--background-lights-out: #000;
+	--background-pinned: #2f3136ff;
+	--background-profile-expand: #2f3136ff;
+	--background-emoji: #2f3136ff;
+	--text-lights-out: #f0f0f0;
+	--background-titlebar: #2f313650;
+
+	--interactive-hover:  #f5f5f5;
+	--interactive-normal: #f5f5f5;
+	--interactive-active: #f5f5f5;
+}
+
+.circleIconButton-jET_ig {
+	color: #76eda3
+}
+
+.circleIconButton-jET_ig.selected-ugP_am {
+	background-color: #76eda3
+}
+
+.rtcConnectionStatusConnected-VRZDjy {
+	color: #76eda3
+}
+
+.iconBadge-2wi9r4.participating-NBGDkr {
+	background-color: #76eda3
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+	background-color: #e88be0;
+}
