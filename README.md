@@ -44,3 +44,8 @@ Bright colors
 	* #EDBBE9	magenta
 	* #81F5E1	cyan
 	* #F5F5F5	white
+
+Another screenshot!
+-------------------
+
+<img src="https://github.com/depsterr/vibrant-night/blob/master/misc/scrot2.png?raw=true">
