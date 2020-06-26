@@ -25,9 +25,12 @@
 .theme-dark{
 	--background-primary: transparent;
 	--background-primary-alt: #5C5C5Cf0;
-	--background-secondary: #2f313650;
-	--background-secondary-chat: #2f3136a0;
-	--background-secondary-alt: #292b2f00;
+
+	--background-secondary: #3b3b3b50;
+	--background-secondary-chat: #3b3b3ba0;
+	--background-secondary-alt: #3b3b3b00;
+
+	--channeltextarea-background: #3b3b3b00;
 
 	--background-tertiary: #2e2e2e70;
 
