@@ -16,6 +16,7 @@ You can find the colorscheme for all the things in these files:
 	* $PS1 - colors.sh
 	* tty - colors.sh
 	* chrome - chrome directory
+	* firefox - firefox directory
 	* discord - discord.css
 
 Colors

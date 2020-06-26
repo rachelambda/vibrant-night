@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "vibrant-night",
+  "theme": {
+    "images": {},
+    "properties": {},
+    "colors": {
+      "toolbar": "rgb(46, 46, 46)",
+      "toolbar_text": "rgb(245, 245, 245)",
+      "frame": "rgb(92, 92, 92)",
+      "tab_background_text": "rgb(233, 233, 233)",
+      "toolbar_field": "rgb(46, 46, 46)",
+      "toolbar_field_text": "rgb(232, 139, 224)",
+      "tab_line": "rgb(92, 92, 92)",
+      "popup": "rgb(92, 92, 92)",
+      "popup_text": "rgb(232, 139, 224)",
+      "tab_loading": "rgb(92, 92, 92)"
+    }
+  }
+}
